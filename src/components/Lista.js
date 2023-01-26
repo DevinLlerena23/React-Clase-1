@@ -1,4 +1,4 @@
-export const listadoTareas = [
+const listadoTareas = [
     {
       titulo: "Estudiar física",
       resposable: "Pedro Alvarado",
@@ -18,3 +18,5 @@ export const listadoTareas = [
       prioridad: "baja",
     },
   ];
+
+  module.exports = { datos: listadoTareas };
