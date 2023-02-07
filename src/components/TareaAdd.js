@@ -41,8 +41,8 @@ export default function TareaAdd({guardarTarea}) {
                             <strong>Nueva Tarea</strong>
                         </div>
                         <div className="card-body">
-                            <div class="form-group">
-                                <label for="titulo">Titulo de la tarea</label>
+                            <div className="form-group">
+                                <label htmlFor="titulo">Titulo de la tarea</label>
                                 <input
                                     type="text"
                                     class="form-control"
@@ -54,8 +54,8 @@ export default function TareaAdd({guardarTarea}) {
                                     required
                                 />
                             </div>
-                            <div class="form-group">
-                                <label for="descripcion">Descripcion tarea</label>
+                            <div className="form-group">
+                                <label htmlFor="descripcion">Descripcion tarea</label>
                                 <input
                                     type="text"
                                     class="form-control"
@@ -67,8 +67,8 @@ export default function TareaAdd({guardarTarea}) {
                                     required
                                 />
                             </div>
-                            <div class="form-group">
-                                <label for="reponsable">Responsable tarea</label>
+                            <div className="form-group">
+                                <label htmlFor="reponsable">Responsable tarea</label>
                                 <input
                                     type="text"
                                     class="form-control"
@@ -80,8 +80,8 @@ export default function TareaAdd({guardarTarea}) {
                                     required
                                 />
                             </div>
-                            <div class="form-group">
-                                <label for="prioridad">Prioridad tarea</label>
+                            <div className="form-group">
+                                <label htmlFor="prioridad">Prioridad tarea</label>
                                 <input
                                     type="text"
                                     class="form-control"
